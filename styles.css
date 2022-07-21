@@ -1,0 +1,73 @@
+body{
+    background-color: #F5F0BB;
+}
+
+h1,h2,h3,h4,h5,h6,label{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Main Box */
+
+
+
+.box{
+    background-color: #90C8AC;
+    width: 900px;
+    height: 400px;
+    margin: 9% auto auto;
+    border-radius: 20px;
+}
+
+
+.heading{
+    text-align: center;
+    padding: 4% 0% 1%;
+    font-weight: 900;
+}
+
+/* Input boxes */
+
+label{
+    font-weight: 400;
+}
+
+.inputBoxes{
+    width: 500px;
+    height: auto;
+    text-align: left;
+    margin: 5% 5% 5% 5%;
+}
+
+/* Button */
+
+.btn{
+    margin: 7% auto 0% auto;
+    background-color: #377D71;
+    border-color: #377D71;
+}
+
+.btn:hover{
+    background-color: #73A9AD;
+    border-color: #73A9AD;
+}
+
+.outputBoxes{
+    position:relative;
+    left: 550px;
+    bottom: 210px;
+}
+
+.outputHeading{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.outputValue{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.outputValueClass{
+    font-weight: 500;
+    font-size: 24px;
+}
